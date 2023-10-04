@@ -6,6 +6,7 @@ public class evenNum {
         System.out.println(findNumbers(nums));
     }
 
+// this function tells how many even digit numbers function have.
     static int findNumbers(int[] nums) {
         int evens = 0;
         for (int row = 0; row < nums.length; row++) {
